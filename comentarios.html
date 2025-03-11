@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMENTARIOS</title>
+    <style>
+        body{
+            background-image: url('imagenes/pexels-mahima-518693-1250260.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            border: #fff solid 2px;
+            border-radius: 10px;
+            height: 400px;
+            backdrop-filter: blur(10px);
+        }
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .exit{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        textarea{
+            border: #fff solid 2px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        label{
+            text-align: center;
+        }
+        img{
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <label for="comentario">COMENTARIO</label><br>
+            <textarea name="comentario" id="comentario" placeholder="Comentario" rows="10" cols="50"></textarea>
+            <p></p>
+        </form>
+    </div>
+    <div class="exit">
+        <a href="peali.html"><img src="imagenes/x.png" alt="salir"></a>
+    </div>
+</body>
+</html>
