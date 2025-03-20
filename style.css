@@ -244,7 +244,7 @@ hr{
     justify-content: center;
     flex-direction: column;
     margin: 10px;
-    width: 400px;
+    width: 350px;
     height: 200px;
     background-color: transparent;
     backdrop-filter: blur(30px);
